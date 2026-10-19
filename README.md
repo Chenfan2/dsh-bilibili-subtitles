@@ -1,5 +1,7 @@
 # dsh-bilibili-subtitles
 
+![dsh-bilibili-subtitles](assets/screenshot-1.png)
+
 把 Bilibili 视频（或本地视频/字幕）变成可读、可检索、可交付的字幕文档。优先使用平台/外挂字幕，Whisper 语音转写和硬字幕 OCR 只做兜底。
 
 ## 功能
