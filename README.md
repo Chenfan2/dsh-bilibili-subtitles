@@ -4,6 +4,24 @@
 
 把 Bilibili 视频（或本地视频/字幕）变成可读、可检索、可交付的字幕文档。优先使用平台/外挂字幕，Whisper 语音转写和硬字幕 OCR 只做兜底。
 
+仓库：<https://github.com/Chenfan2/dsh-bilibili-subtitles>
+
+## 安装
+
+**DSH 桌面端**：侧栏「插件」→「添加插件」→ 粘贴仓库地址：
+
+```text
+https://github.com/Chenfan2/dsh-bilibili-subtitles
+```
+
+**Web / CLI profile**：
+
+```bash
+dsh plugin --profile web add github:Chenfan2/dsh-bilibili-subtitles
+```
+
+**只安装 skill（不需要插件 UI）**：把本目录复制到 `$DSH_HOME/skills/dsh-bilibili-subtitles`，或解压 `dsh-bilibili-subtitles.zip` 到该目录。
+
 ## 功能
 
 - Bilibili 链接：BV/av、分P、番剧 ep/ss、b23.tv 短链。

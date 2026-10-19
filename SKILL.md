@@ -28,7 +28,10 @@ version: 0.2.0
 
 ## 安装与调用
 
-把整个目录复制到 DSH 的 skills 目录（或运行 `install.ps1`），然后在目录内执行：
+- **插件**：<https://github.com/Chenfan2/dsh-bilibili-subtitles>（DSH 桌面端「插件 → 添加插件」粘贴地址，或 `dsh plugin --profile web add github:Chenfan2/dsh-bilibili-subtitles`）。
+- **纯 skill**：把整个目录复制到 DSH 的 skills 目录（或运行 `install.ps1`）。
+
+安装后在目录内执行：
 
 ```bash
 python main.py "https://www.bilibili.com/video/BV1xx411c7mD" --format md,docx
