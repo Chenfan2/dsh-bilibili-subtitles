@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.deps/
+.venv/
+.uv-cache/
+.pip-cache/
+.hf-cache/
+.tmp/
+.dsh-office-*/
+models/
+.vsub-models*/
+output/
+samples/
+tests/_tmp/
+*.quality.json

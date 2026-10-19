@@ -1,0 +1,4 @@
+# dsh bundle patch: insert the skill provider into a profile's layer stack.
+- insert:
+    - id: dsh-bilibili-subtitles
+      name: dsh-bilibili-subtitles

@@ -1,0 +1,14 @@
+# Core (DOCX output)
+python-docx>=1.1.0
+
+# Optional: ASR fallback (also downloads a Whisper model on first use)
+# faster-whisper>=1.0.0
+
+# Optional: PDF fallback when LibreOffice is not installed
+# reportlab>=4.0.0
+
+# Optional: hard-coded subtitle OCR
+# rapidocr_onnxruntime>=1.4.0
+
+# Optional: bundled ffmpeg binary (embedded subtitles / OCR / audio extraction)
+# imageio-ffmpeg>=0.4.9

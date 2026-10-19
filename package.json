@@ -1,0 +1,50 @@
+{
+  "name": "dsh-bilibili-subtitles",
+  "version": "0.2.0",
+  "description": "Extract Bilibili platform/AI subtitles (or external/embedded/ASR/OCR fallback) and render Markdown, Word, PDF, TXT, SRT or JSON with timestamps, bilingual alignment and a quality report.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "bilibili",
+    "subtitle",
+    "transcript",
+    "markdown",
+    "docx"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "SKILL.md",
+    "main.py",
+    "vsub",
+    "templates",
+    "requirements.txt",
+    "cordis.patch.yml",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22",
+    "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+  },
+  "scripts": {
+    "check": "node --check lib/index.js"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chenfan2/dsh-bilibili-subtitles.git"
+  },
+  "homepage": "https://github.com/Chenfan2/dsh-bilibili-subtitles#readme",
+  "bugs": {
+    "url": "https://github.com/Chenfan2/dsh-bilibili-subtitles/issues"
+  },
+  "license": "MIT"
+}

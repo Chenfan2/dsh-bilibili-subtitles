@@ -1,0 +1,14 @@
+1
+00:00:00,000 --> 00:00:03,000
+人工智能正在改变我们获取知识的方式。
+Artificial intelligence is changing how we acquire knowledge.
+
+2
+00:00:03,200 --> 00:00:06,000
+但工具越强大，判断力就越重要。
+But the more powerful the tools, the more important judgment becomes.
+
+3
+00:00:06,200 --> 00:00:09,500
+所以第一步永远是提出一个好问题。
+So the first step is always asking a good question.
